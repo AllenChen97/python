@@ -1,0 +1,48 @@
+安装软件包：pip install 包名
+
+升级pip自身：python -m pip install --upgrade pip
+
+查看已经通过pip安装的包：pip list
+
+显示当前已经通过pip安装的包及版本号：pip freeze
+
+查看某个已经安装的包的详情：pip show 包名
+
+查看过期的包：pip list --outdated
+
+安装包到用户目录：pip install 包名 --user
+
+
+
+安装本地的安装包：pip install 目录|文件名
+
+
+
+卸载包：pip uninstall 包名
+
+
+
+升级包：pip install 包名 --upgrade
+
+
+
+显示包所在目录：pip show -f 包名
+
+
+
+搜索包：pip search 关键字
+
+
+
+查询可升级的包：pip list -o
+
+
+
+下载包但不安装：pip install 包名 -d 目录
+
+
+
+打包：pip wheel 包名
+
+
+

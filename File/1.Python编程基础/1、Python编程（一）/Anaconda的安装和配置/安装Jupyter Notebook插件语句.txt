@@ -1,0 +1,26 @@
+﻿第一步：更新pip
+	python -m pip install --upgrade pip
+
+
+第二步：更新Jupyter 
+	pip install --upgrade jupyter
+
+
+第三步：安装 jupyter_contrib_nbextensions  
+	pip install jupyter_contrib_nbextensions 
+
+
+第四步：配置 nbextension  
+	jupyter contrib nbextension install --user
+	
+	
+第五步：启动jupyter notebook
+	选择 Nbextensions
+	勾选 Table of Contents
+
+
+第六步：可选，安装Collapsible headings插件
+	勾选Collapsible headings----将标题内部的内容全部折叠起来
+	Code folding---代码折叠插件,允许你将缩进内容折叠起来,节省屏幕空间
+
+具体还可以参考：https://blog.csdn.net/August1226/article/details/80762632
